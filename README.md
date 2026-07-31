@@ -9,5 +9,4 @@ A multi-page automotive repair website built with HTML, CSS, and JavaScript.
 - Contact
 
 ## Status
-HTML structure complete.
 HTML structure complete. CSS styling, responsiveness, and JavaScript in progress.
