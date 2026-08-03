@@ -7,21 +7,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/png" href="imgs/faxicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>AutoMasters</title>
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body class = "services-body">
     <header id="header">
         <nav id="nav-bar">
-        <a href="index.html">
-            <img id="header-img" src="Automasters/logotitle.png" alt="AutoMasters logo">
-        </a>
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="services.html">Services</a>
-            <a class="nav-link" href="about.html">About Us</a>
-            <a class="nav-link" href="contact.html">Contact</a>
+
+            <a href="index.html">
+                <img id="header-img" src="imgs/navlogo.png" alt="AutoMasters logo">
+            </a>
+    
+            <button id="menu-btn">&#9776;</button>
+    
+            <div id="nav-links">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="services.html">Services</a>
+                <a class="nav-link" href="about.html">About Us</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </div>
+    
         </nav>
     </header>
+    <div id="overlay"></div>
 
     <main>
         <div class = "hero-image">
@@ -97,7 +106,7 @@
             <hr class="copyright-divider">
             <p class="copyright">Copyright © 2023, Automasters</p>
         </div>
-</footer>
-    
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
